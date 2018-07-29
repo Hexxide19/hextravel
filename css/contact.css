@@ -1,0 +1,141 @@
+body{
+	background:#000;
+}
+/*Change Background Navigation */
+.navbar-hextrav{
+	background:#fff!important;
+}
+/* Change Background-Color toggle when click and hover */
+.navbar-default .toggle-hex:focus, .navbar-default .toggle-hex:hover{
+	background-color:#fff;
+}
+.navbar-default .navbar-nav>li>a:focus{
+	color:#000!important;
+}
+/* Change text-align when click toggle */
+.navbar-hex>li>a{
+	text-align:center;
+}
+/* Change Border-Color toggle Navigation */
+.navbar-default .toggle-hex{
+	border-color:transparent;
+}
+/* Change Font-Color Navigation */
+.navbar-default .navbar-hex>li>a{
+	color:#000;
+	font-family:'Oswald', sans-serif;
+}
+/* Change Font-Color Navigation when Hover */
+.navbar-default .navbar-hex>li>a:hover{
+	color:#000;
+}
+/* Change Color Toggle-IconBar */
+.navbar-default .navbar-toggle .icon-bar{
+	background-color:#000!important;
+}
+
+.navbar-brand{
+	padding:0!important;
+}
+.navbar-brand>img{
+
+}
+
+.pict-contact{
+	background-image:url('../img/bg-contact.jpg');
+	min-height:490px;
+	background-attachment:fixed;
+}
+.black-bg{
+	height:200px;
+	background:#000;
+	opacity:0.3;
+}
+.contact-title{
+	text-align:center;
+	color:#fff;
+	top:200px;
+	left:38%;
+	position:absolute;
+	z-index:99;
+}
+.contact-title h1{
+	font-size:50px;
+}
+
+.contact-column{
+	margin-top:30px;
+}
+
+.column-contact .title{
+	color:#fff;
+	font-size:30px;
+	text-align:center;
+}
+.column-contact .title img{
+	vertical-align: top;
+}
+.content{
+	margin-top:15px;
+	padding-left:70px;
+}
+.content p{
+	text-align:left;
+	color:#fff;
+}
+.content li{
+	list-style:none;
+}
+.content li>a>i{
+	color:#fff;
+	font-size:45px;
+	transition:all 0.3s ease-in;
+}
+.content li>a>i:hover{
+	color:#ff9f1c;
+}
+.content .left{
+	text-align:left;
+}
+.content .mid{
+	text-align:center;
+}
+.content .right{
+	text-align:right;
+}
+
+.form-contact{
+	margin:20px 0;
+	padding:10px;
+
+}
+.form-contact:focus{
+
+}
+
+.form-contact>input[type="text"], .form-contact>input[type="email"], .form-contact>input[type="password"], .form-contact>select, .form-contact>textarea{
+	padding:10px;
+	width:100%;
+	margin-bottom:10px;
+	border-radius:30px;
+
+
+}
+.form-contact>input[type="text"]:focus, .form-contact>input[type="email"]:focus, .form-contact>input[type="password"]:focus, .form-contact>select:focus, .form-contact>textarea:focus{
+	border-radius:30px;
+	border:2px solid #cf7700;
+	outline:none;
+}
+.btn-send{
+	background:#ff9f1c;
+	padding:10px 20px;
+	color:white;
+	border:1px solid #ff9f1c;
+	border-radius:10px;
+	transition:all 0.3s ease-in;
+}
+.btn-send:hover{
+	background:#cf7700;
+	cursor:pointer;
+	border:1px solid #cf7700;
+}
